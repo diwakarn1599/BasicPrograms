@@ -9,7 +9,7 @@ namespace BasicPrograms
             Console.WriteLine("Basic Programs :");
 
             // creating menu for basic programs
-            Console.WriteLine("MENU\n1.FlipCoin\n2.Leap Year\n3.Power Of Two\n4.Harmonic Number\n5.Primefactor\n6.Quotient and Reminder\n7.Swap Numbers\n8.Even or Odd\n9.Vowel or Consonant\n10.Exit");
+            Console.WriteLine("MENU\n1.FlipCoin\n2.Leap Year\n3.Power Of Two\n4.Harmonic Number\n5.Primefactor\n6.Quotient and Reminder\n7.Swap Numbers\n8.Even or Odd\n9.Vowel or Consonant\n10.Largest of Three\n11.Exit");
 
             Console.WriteLine("Enter the option");
 
@@ -43,8 +43,11 @@ namespace BasicPrograms
                 case 9:
                     VowelOrConsonant.CheckVowelOrConsonant();
                     break;
-
                 case 10:
+                    LargestOfThree.LargestOfThreeNumbers();
+                    break;
+
+                case 11:
                     Console.WriteLine("Exited");
                     break;
                 default:
