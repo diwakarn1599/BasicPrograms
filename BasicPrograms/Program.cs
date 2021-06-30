@@ -9,7 +9,7 @@ namespace BasicPrograms
             Console.WriteLine("Basic Programs :");
 
             // creating menu for basic programs
-            Console.WriteLine("MENU\n1.FlipCoin\n2.Exit");
+            Console.WriteLine("MENU\n1.FlipCoin\n2.Leap Year\n3.Exit");
 
             Console.WriteLine("Enter the option");
 
@@ -20,6 +20,10 @@ namespace BasicPrograms
                     FlipCoin.FilpCoinPercentage();
                     break;
                 case 2:
+                    LeapYear.CheckLeapYear();
+                    break;
+
+                case 3:
                     Console.WriteLine("Exited");
                     break;
                 default:
